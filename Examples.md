@@ -102,7 +102,7 @@ private static void JSONExampleStringer() {
 	jsonStringer.key("intValue").value(42);
 	jsonStringer.key("doubleValue").value(-23.45e67);
 
-	//We end this prcedure with .ednObject
+	//We end this procedure with .endObject
 
 	jsonStringer.endObject();
 
